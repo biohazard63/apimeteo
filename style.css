@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+#submit-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#submit-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#city-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+#city-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0,123,255,0.2);
+}
+
+#weather-info, #geo-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+#weather-info:hover, #geo-info:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
